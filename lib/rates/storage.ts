@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import type { RateState } from './types'
 
-const VAR_DIR = path.join(process.cwd(), 'var')
+const VAR_DIR = process.env.VERCEL ? path.join('/tmp', 'var') : path.join(process.cwd(), 'var')
 const FILE_PATH = path.join(VAR_DIR, 'rate-state.json')
 
 let mem: RateState | null = null
