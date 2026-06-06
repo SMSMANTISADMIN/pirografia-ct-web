@@ -8,9 +8,9 @@ export function generateStaticParams() {
   return getCatalog().map((c) => ({ slug: c.slug }))
 }
 
-export default function CatalogItemPage({ params }: { params: { slug: string } }) {
+export default async function CatalogItemPage({ params }: { params: { slug: string } }) {
   const item = getCatalogItemBySlug(params.slug)
-  const fx = getFxRateServer()
+  const fx = await getFxRateServer()
   if (!item) {
     return (
       <main>

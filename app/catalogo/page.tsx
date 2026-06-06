@@ -2,8 +2,8 @@ import { CatalogCard } from '@/components/CatalogCard'
 import { getCatalog } from '@/lib/catalog'
 import { getFxRateServer } from '@/lib/rates/getRateServer'
 
-export default function CatalogoPage() {
-  const fx = getFxRateServer()
+export default async function CatalogoPage() {
+  const fx = await getFxRateServer()
   const catalog = getCatalog()
   return (
     <main>
