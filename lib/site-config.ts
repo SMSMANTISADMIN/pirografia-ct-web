@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: 'Pirograbado artístico · Retratos, logos, decoración',
   // Tasa de cambio usada solo para mostrar referencia en USD.
   // Ajusta este valor sin tocar el código (v1). En v2 lo movemos a Admin.
-  usdRateBs: 357,
+  usdRateBs: 567,
   contact: {
     whatsappNumber: '+584242167169',
     email: 'pirografia.ct@gmail.com'
