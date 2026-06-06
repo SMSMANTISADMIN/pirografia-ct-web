@@ -25,7 +25,7 @@ export async function POST(req: Request) {
 
   const consensus = computeConsensus(sources, prev.lastGoodRate, {
     deltaPct: Number(process.env.RATE_DELTA_PCT ?? 0.005),
-    maxJumpPct: Number(process.env.RATE_MAX_JUMP_PCT ?? 0.05)
+    maxJumpPct: prev.sources.length === 0 ? 999 : Number(process.env.RATE_MAX_JUMP_PCT ?? 0.05)
   })
 
   const now = new Date().toISOString()
