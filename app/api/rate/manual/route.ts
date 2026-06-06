@@ -26,7 +26,7 @@ export async function POST(req: Request) {
   if (mode === 'manual') {
     const r = Number(manualRate)
     if (!Number.isFinite(r) || r <= 0) return NextResponse.json({ error: 'manualRate inválida' }, { status: 400 })
-    next = { ...next, mode: 'manual', manualRate: r, currentRate: r, status: 'manual' }
+    next = { ...next, mode: 'manual', manualRate: r, currentRate: r, lastGoodRate: r, status: 'manual' }
   } else {
     next = { ...next, mode: 'auto', manualRate: undefined, currentRate: prev.lastGoodRate, status: 'stale' }
   }
