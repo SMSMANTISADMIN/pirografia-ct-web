@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "m_001",
+      "title": "Retrato — Realismo",
+      "cover": "/images/museo/sample-1.svg",
+      "tags": ["retrato", "realismo"],
+      "year": 2026,
+      "size": "30x40",
+      "description": "Pieza de muestra. Sustituye por videos/permalinks reales del cliente.",
+      "permalink": ""
+    },
+    {
+      "id": "m_002",
+      "title": "Logo — Quemado fino",
+      "cover": "/images/museo/sample-2.svg",
+      "tags": ["logo", "tipografía"],
+      "year": 2026,
+      "size": "25x25",
+      "description": "Pieza de muestra. Ideal para marcas, placas y regalos.",
+      "permalink": ""
+    },
+    {
+      "id": "m_003",
+      "title": "Animal — Alto contraste",
+      "cover": "/images/museo/627697827_18073821185617659_9094864553810549383_n.jpg",
+      "tags": ["animal", "contraste"],
+      "year": 2026,
+      "size": "35x50",
+      "description": "Pieza de muestra. Recomendado para composiciones grandes.",
+      "permalink": ""
+    }
+  ]
+}

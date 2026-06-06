@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#0B0F14"/>
+  <rect width="800" height="600" fill="url(#grain)" opacity="0.15"/>
+  <g transform="translate(400,240)" opacity="0.12">
+    <text text-anchor="middle" font-family="serif" font-size="120" font-weight="bold" fill="white">CT</text>
+  </g>
+  <g transform="translate(400,260)" opacity="0.06">
+    <text text-anchor="middle" font-family="serif" font-size="40" fill="white">PIROGRAFIA</text>
+  </g>
+  <rect x="250" y="360" width="300" height="2" rx="1" opacity="0.1" fill="white"/>
+  <text x="400" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="white" opacity="0.3">Próximamente</text>
+</svg>

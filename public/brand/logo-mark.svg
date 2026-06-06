@@ -1,0 +1,27 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="main-layer" viewBox="0 0 1800 1800" data-meta="eyJ0ZW1wbGF0ZUtleSI6Ijc3ZTRiZDNiLTA3MGQtNGEzMy04MzI0LTM3MDk3YmYwNTU5OCIsImRpbWVuc2lvbnMiOnsiaGVpZ2h0IjoxODAwLCJ3aWR0aCI6MTgwMCwidW5pdCI6InB4In0sInByaW50YWJsZURpbWVuc2lvbnMiOnsiaGVpZ2h0IjoxODAwLCJ3aWR0aCI6MTgwMCwidW5pdCI6InB4In19" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; overflow: visible;" width="1800" height="1800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs class="defs-layer">
+    <pattern data-type="image-fill-pattern" x="0" y="0" width="2" height="2" data-is-default-href="false" id="image-9-crop-pattern">
+      <use data-type="image-fill-crop-use" href="#image-fill-crop-image-image-9-crop-pattern" preserveAspectRatio="none"/>
+    </pattern>
+    <pattern data-type="image-fill-pattern" x="0" y="0" width="2" height="2" data-is-default-href="false" id="image-0-crop-pattern"><use data-type="image-fill-crop-use" href="#image-fill-crop-image-image-0-crop-pattern" preserveAspectRatio="none" style="display: block;"/></pattern>
+    <clipPath data-type="image-fill-crop-clip-path" id="image-fill-crop-clip-path-image-crop-rectangle-9">
+      <use data-type="image-fill-crop-clip-path-use" href="#image-crop-rectangle-9"/>
+    </clipPath>
+    <clipPath data-type="image-fill-crop-clip-path" id="image-fill-crop-clip-path-image-crop-rectangle-0"><use data-type="image-fill-crop-clip-path-use" href="#image-crop-rectangle-0"/></clipPath>
+    
+    
+  <clipPath data-type="base-clip-path" id="base-clip-path-0">
+      
+    <path d="M0,0L1800,0L1800,1799.999878L0,1799.999878L0,0Z"/></clipPath><clipPath data-type="underlay-clip-path" id="underlay-clip-path-0" style="transform: scale(0.109921);">
+      
+    <path d="M0,0L1800,0L1800,1799.999878L0,1799.999878L0,0Z"/></clipPath><style xmlns="http://www.w3.org/1999/xhtml"></style></defs><mask class="clip-layer" id="clip-layer-0" data-rotation="0"><rect fill="#000000" class="mask-rect" display="none"/><rect width="518.4" height="345.6" transform="scale(3.4722220586978274, 5.208333241350858) rotate(0 0 0) translate(0 0)" style="fill: rgb(255, 255, 255); stroke-miterlimit: 10; stroke: none;"/></mask><g class="base-layer" data-curr-zoom="0.10992063734266493" data-mask-stroke-color="" data-mask-stroke-width="0" style="clip-path: url(&quot;#base-clip-path-0&quot;);" mask="url(#clip-layer-0)"><rect x="0" y="0" width="1800" height="1800" data-background-el="true" style="pointer-events: none; opacity: 1;" fill="#ffffff"/>
+    
+    <g class="g crayon-g" data-bb="0 0 819 819" transform="rotate(0, 900, 900) translate(-989.0109, -989.0109) scale(1.098901, 1.098901) translate(819.000074, 819.000074) translate(900, 900) " data-t="-409.5 -409.5 900 900 1.098901 1.098901 0" data-type="image" data-opacity="1" data-filters="[]">
+      <g class="off-g" transform="translate(-409.5, -409.5)">
+        <g style="opacity: 1;">
+          
+          
+        <image width="819" height="819" data-high-res="https://storage.googleapis.com/sm-studio/studio/uploads/cc4375a6-3972-4a7c-a6d5-f021dff77015.png" data-sources="{}" data-s="1.098901098901099" id="image-0" style="display: block;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://storage.googleapis.com/sm-studio/studio/uploads/cc4375a6-3972-4a7c-a6d5-f021dff77015.png"/><rect width="819" height="819" id="image-crop-rectangle-0" style="fill: url(&quot;#image-0-crop-pattern&quot;); display: none;" data-ignore-colors="fill" data-type="image-crop-helper" data-parent="0"/></g>
+        <g data-type="image-fill-crop-group" data-parent="image-0-crop-pattern" id="image-fill-crop-group-image-0-crop-pattern" clip-path="url(#image-fill-crop-clip-path-image-crop-rectangle-0)" style="display: block; opacity: 1;"><image width="819" height="819" data-type="image-fill-crop-image" id="image-fill-crop-image-image-0-crop-pattern" preserveAspectRatio="none" class="crayon-ignore" href="https://storage.googleapis.com/sm-studio/studio/uploads/cc4375a6-3972-4a7c-a6d5-f021dff77015.png" style="pointer-events: none;"/></g>
+      </g>
+    </g>
+  </g><g mask="url(#clip-layer-0)"><rect width="518.4" height="345.6" transform="scale(3.4722220586978274, 5.208333241350858) rotate(0 0 0) translate(0 0)" style="fill: none; stroke-miterlimit: 10; stroke-width: 0; display: none;" class="editable-mask-border"/><path width="518.4" height="345.6" style="fill: none; stroke-miterlimit: 10; stroke-width: 0; display: block;" class="editable-mask-border flat-editable-mask" d="M0,0L1800,0L1800,1799.999878L0,1799.999878L0,0Z"/></g></svg>

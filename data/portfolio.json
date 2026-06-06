@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "m001",
+      "title": "Goku: Poder bajo la Luna Cósmica",
+      "cover": "/images/museo/m001.webp",
+      "tags": ["anime"],
+      "year": 2026,
+      "size": "25cm x 30cm",
+      "description": "El guerrero Saiyajin inmortalizado en madera. Cada trazo captura la intensidad de su mirada y la energía que emana bajo la luz de la luna.",
+      "permalink": ""
+    },
+    {
+      "id": "m002",
+      "title": "Retrato Familiar: Recuerdo Eterno",
+      "cover": "/images/museo/m002.webp",
+      "tags": ["familiar", "retrato"],
+      "year": 2026,
+      "size": "20cm x 25cm",
+      "description": "Un instante familiar grabado a fuego para durar generaciones. La calidez de la madera envuelve cada rostro con la promesa de un recuerdo imborrable.",
+      "permalink": ""
+    },
+    {
+      "id": "m003",
+      "title": "Sueños de Astronauta",
+      "cover": "/images/museo/m003.webp",
+      "tags": ["espacial"],
+      "year": 2026,
+      "size": "22cm x 28cm",
+      "description": "Flotando entre estrellas de resina, este astronauta nos recuerda que el universo cabe en un pedazo de madera cuando hay fuego e imaginación.",
+      "permalink": ""
+    },
+    {
+      "id": "m004",
+      "title": "Mario Bros: Poder de Aventura",
+      "cover": "/images/museo/m004.webp",
+      "tags": ["videojuegos"],
+      "year": 2026,
+      "size": "20cm x 20cm",
+      "description": "El fontanero más famoso del mundo, grabado con la precisión de un power-up. Una pieza que trae la nostalgia del Reino Champiñón a cualquier pared.",
+      "permalink": ""
+    },
+    {
+      "id": "m005",
+      "title": "Batman: El Vigilante de la Noche",
+      "cover": "/images/museo/m005.webp",
+      "tags": ["superhéroes"],
+      "year": 2026,
+      "size": "28cm x 35cm",
+      "description": "Desde las sombras de Gotham hasta la veta de la madera. El Caballero Oscuro emerge en claroscuro, vigilante eterno grabado a fuego.",
+      "permalink": ""
+    },
+    {
+      "id": "m006",
+      "title": "Musa de Cristal: Mirada de Aura",
+      "cover": "/images/museo/m006.webp",
+      "tags": ["retrato"],
+      "year": 2026,
+      "size": "25cm x 30cm",
+      "description": "Una mirada que atraviesa la madera. Cada sombra y cada luz fueron danzadas por la punta del pirograbador hasta revelar un alma de cristal.",
+      "permalink": ""
+    },
+    {
+      "id": "m007",
+      "title": "Perry el Ornitorrinco: Agente Secreto",
+      "cover": "/images/museo/m007.webp",
+      "tags": ["videojuegos"],
+      "year": 2026,
+      "size": "20cm x 25cm",
+      "description": "El agente P en su versión más artesanal. Con su mirada determinada y su sombrero característico, Perry demuestra que el estilo no entiende de especies.",
+      "permalink": ""
+    },
+    {
+      "id": "m008",
+      "title": "Retrato de Mascota: Mi Compañero Eterno",
+      "cover": "/images/museo/m008.webp",
+      "tags": ["mascotas", "retrato"],
+      "year": 2026,
+      "size": "22cm x 28cm",
+      "description": "Esa mirada que te reconoce al llegar a casa, ahora inmortalizada en madera. Un homenaje al amigo de cuatro patas que nunca se va del todo.",
+      "permalink": ""
+    }
+  ]
+}
