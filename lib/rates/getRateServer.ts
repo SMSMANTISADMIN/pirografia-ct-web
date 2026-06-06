@@ -3,9 +3,9 @@ import { readRateState, writeRateState } from './storage'
 import { getProviderConfigs, runProvider } from './providers'
 import { computeConsensus } from './consensus'
 
-let refreshPromise: Promise<void> | null = null
+export let refreshPromise: Promise<void> | null = null
 
-async function refreshIfStale() {
+export async function refreshIfStale() {
   const state = readRateState(siteConfig.usdRateBs)
   if (state.status !== 'stale' || state.mode === 'manual') return
 
@@ -19,9 +19,11 @@ async function refreshIfStale() {
       const cfgs = getProviderConfigs()
       if (!cfgs.length) return
       const sources = await Promise.all(cfgs.slice(0, 3).map(runProvider))
+      const isFirstRefresh = state.sources.length === 0
+      const maxJumpPct = isFirstRefresh ? 999 : Number(process.env.RATE_MAX_JUMP_PCT ?? 0.05)
       const consensus = computeConsensus(sources, state.lastGoodRate, {
         deltaPct: Number(process.env.RATE_DELTA_PCT ?? 0.005),
-        maxJumpPct: Number(process.env.RATE_MAX_JUMP_PCT ?? 0.05)
+        maxJumpPct
       })
       const now = new Date().toISOString()
       if (consensus.ok) {
