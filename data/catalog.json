@@ -21,7 +21,7 @@
       "title": "Mini retrato - CAT2",
       "slug": "categoria-2",
       "cover": "/images/catalogo/cat2.jpg",
-      "basePriceUsd": 27,
+      "basePriceUsd": 30,
       "textIncludedPriceUsd": 26,
       "sizes": ["13cm x 16cm", "13cm x 18cm"],
       "notes": ["Resina epóxica incluida", "Ideal para regalos"]
@@ -32,7 +32,7 @@
       "title": "Retrato mediano - CAT3",
       "slug": "categoria-3",
       "cover": "/images/catalogo/cat3.jpg",
-      "basePriceUsd": 30,
+      "basePriceUsd": 33,
       "textIncludedPriceUsd": 28,
       "sizes": ["13cm x 19cm", "13cm x 20cm"],
       "notes": ["Resina epóxica incluida", "Acabado mate"]
@@ -76,7 +76,7 @@
       "title": "Mural personal - CAT7",
       "slug": "categoria-7",
       "cover": "/images/catalogo/cat7.jpg",
-      "basePriceUsd": 92,
+      "basePriceUsd": 95,
       "textIncludedPriceUsd": 92,
       "sizes": ["20cm x 31cm", "25cm x 27cm"],
       "notes": ["Barniz mate protector", "Gancho incluido"]
@@ -87,7 +87,7 @@
       "title": "Obra magistral - CAT8",
       "slug": "categoria-8",
       "cover": "/images/catalogo/cat8.jpg",
-      "basePriceUsd": 160,
+      "basePriceUsd": 170,
       "textIncludedPriceUsd": 142,
       "sizes": ["41cm x 38cm", "43cm circunferencia", "37cm x 34cm"],
       "notes": ["Resina epóxica incluida", "Acabado premium", "Listo para colgar"]
