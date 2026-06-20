@@ -4,14 +4,14 @@
   "pricingTable": {
     "additionalPieceUsd": 2,
     "categories": {
-      "1": { "color2": 1, "color4": 1, "envoltura": 2 },
-      "2": { "color2": 2, "color4": 4, "envoltura": 5 },
-      "3": { "color2": 3, "color4": 4, "envoltura": 6 },
-      "4": { "color2": 3, "color4": 5, "envoltura": 7 },
-      "5": { "color2": 4, "color4": 6, "envoltura": 10 },
-      "6": { "color2": 6, "color4": 8, "envoltura": 13 },
-      "7": { "color2": 9, "color4": 12, "envoltura": 16 },
-      "8": { "color2": 18, "color4": 24, "envoltura": 19 }
+      "1": { "color2": 1, "color4": 1, "envoltura": 2, "texto": 0 },
+      "2": { "color2": 2, "color4": 4, "envoltura": 5, "texto": 3 },
+      "3": { "color2": 3, "color4": 4, "envoltura": 6, "texto": 3 },
+      "4": { "color2": 3, "color4": 5, "envoltura": 7, "texto": 3 },
+      "5": { "color2": 4, "color4": 6, "envoltura": 10, "texto": 4 },
+      "6": { "color2": 6, "color4": 8, "envoltura": 13, "texto": 4 },
+      "7": { "color2": 9, "color4": 12, "envoltura": 16, "texto": 4 },
+      "8": { "color2": 18, "color4": 24, "envoltura": 19, "texto": 10 }
     }
   },
   "items": [

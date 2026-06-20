@@ -14,7 +14,12 @@ export type CatalogItem = {
   notes?: string[]
 }
 
-export type PricingRow = { color2: number; color4: number; envoltura: number }
+export type PricingRow = {
+  color2: number
+  color4: number
+  envoltura: number
+  texto: number
+}
 
 export type PricingTable = {
   additionalPieceUsd: number
