@@ -1,16 +1,15 @@
 import Link from 'next/link'
 import { CatalogConfigurator } from '@/components/CatalogConfigurator'
-import { getCatalog, getCatalogItemBySlug } from '@/lib/catalog'
+import { getCatalogItemBySlug } from '@/lib/catalog'
 import { formatBsFromUsd, formatUsd } from '@/lib/currency'
 import { getFxRateServer } from '@/lib/rates/getRateServer'
 
-export function generateStaticParams() {
-  return getCatalog().map((c) => ({ slug: c.slug }))
-}
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 export default async function CatalogItemPage({ params }: { params: { slug: string } }) {
   const item = getCatalogItemBySlug(params.slug)
-  const fx = await getFxRateServer()
+
   if (!item) {
     return (
       <main>
@@ -24,6 +23,8 @@ export default async function CatalogItemPage({ params }: { params: { slug: stri
       </main>
     )
   }
+
+  const fx = await getFxRateServer()
 
   return (
     <main>
@@ -45,7 +46,8 @@ export default async function CatalogItemPage({ params }: { params: { slug: stri
               <span className="text-white/55">{formatBsFromUsd(item.basePriceUsd, fx.rate)} (BCV)</span>
             </div>
             <div className="mt-2 text-xs text-white/45">
-              Tasa BCV: {fx.rate.toFixed(2)} Bs/$ ({fx.status}).
+              Tasa BCV: {fx.rate.toFixed(2)} Bs/$ ({fx.status})
+              {fx.updatedAt ? ` · Actualizada ${new Date(fx.updatedAt).toLocaleString()}` : ''}
             </div>
           </div>
         </div>
@@ -84,7 +86,7 @@ export default async function CatalogItemPage({ params }: { params: { slug: stri
             </div>
           </div>
 
-          <CatalogConfigurator item={item} />
+          <CatalogConfigurator item={item} fxRate={fx.rate} fxStatus={fx.status} fxUpdatedAt={fx.updatedAt} />
         </div>
       </section>
     </main>

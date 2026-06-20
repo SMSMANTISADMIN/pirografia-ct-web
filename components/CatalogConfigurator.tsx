@@ -3,19 +3,19 @@
 import { useMemo, useState } from 'react'
 import { getPricingTable, type CatalogItem } from '@/lib/catalog'
 import { formatBsFromUsd, formatUsd } from '@/lib/currency'
-import { siteConfig, whatsappHref } from '@/lib/site-config'
-import { useRate } from '@/lib/rates/useRate'
+import { whatsappHref } from '@/lib/site-config'
 
 type Props = {
   item: CatalogItem
+  fxRate: number
+  fxStatus: 'ok-3of3' | 'ok-2of3' | 'stale' | 'manual'
+  fxUpdatedAt: string
 }
 
 type ColorOpt = 'none' | '2' | '4'
 
-export function CatalogConfigurator({ item }: Props) {
+export function CatalogConfigurator({ item, fxRate, fxStatus, fxUpdatedAt }: Props) {
   const pricingTable = getPricingTable()
-  const { rate, meta } = useRate()
-  const fx = rate ?? siteConfig.usdRateBs
 
   const isCategory = item.type === 'categoria'
   const catNum = isCategory ? Number(item.slug.replace('categoria-', '')) : null
@@ -33,21 +33,32 @@ export function CatalogConfigurator({ item }: Props) {
     if (isCategory && catNum) {
       const row = pricingTable.categories[String(catNum)]
       if (row) {
-      if (colorOpt === '2') addonsUsd += row.color2
-      if (colorOpt === '4') addonsUsd += row.color4
-      if (envoltura) addonsUsd += row.envoltura
+        if (colorOpt === '2') addonsUsd += row.color2
+        if (colorOpt === '4') addonsUsd += row.color4
+        if (envoltura) addonsUsd += row.envoltura
       }
     }
 
     addonsUsd += additionalPieces * pricingTable.additionalPieceUsd
     const totalUsd = baseUsd + addonsUsd
     return { baseUsd, addonsUsd, totalUsd }
-  }, [additionalPieces, catNum, colorOpt, envoltura, isCategory, item.basePriceUsd, item.textIncludedPriceUsd, texto])
+  }, [
+    additionalPieces,
+    catNum,
+    colorOpt,
+    envoltura,
+    isCategory,
+    item.basePriceUsd,
+    item.textIncludedPriceUsd,
+    pricingTable.additionalPieceUsd,
+    pricingTable.categories,
+    texto
+  ])
 
   const waMsg = useMemo(() => {
     const lines = [
       `🔥 Nuevo pedido — ${item.title}`,
-      `• Base: ${formatUsd(calc.baseUsd)} (${formatBsFromUsd(calc.baseUsd, fx)})`,
+      `• Base: ${formatUsd(calc.baseUsd)} (${formatBsFromUsd(calc.baseUsd, fxRate)})`,
       isCategory
         ? `• Colores: ${colorOpt === 'none' ? 'Sin color' : colorOpt === '2' ? '2 colores' : '4 colores'}`
         : null,
@@ -56,12 +67,12 @@ export function CatalogConfigurator({ item }: Props) {
       `• Piezas adicionales: ${additionalPieces}`,
       note?.trim() ? `• Nota: ${note.trim()}` : null,
       `—`,
-      `TOTAL: ${formatUsd(calc.totalUsd)} (${formatBsFromUsd(calc.totalUsd, fx)})`,
-      `Tasa BCV: ${Number(fx).toFixed(2).replace('.', ',')} Bs/$ (${meta?.status ?? 'stale'})`
+      `TOTAL: ${formatUsd(calc.totalUsd)} (${formatBsFromUsd(calc.totalUsd, fxRate)})`,
+      `Tasa BCV: ${Number(fxRate).toFixed(2).replace('.', ',')} Bs/$ (${fxStatus})`
     ].filter(Boolean)
 
     return lines.join('\n')
-  }, [additionalPieces, calc.baseUsd, calc.totalUsd, colorOpt, envoltura, fx, isCategory, item.title, meta?.status, note, texto])
+  }, [additionalPieces, calc.baseUsd, calc.totalUsd, colorOpt, envoltura, fxRate, fxStatus, isCategory, item.title, note, texto])
 
   return (
     <div className="rounded-3xl border border-white/10 bg-white/5 p-5 backdrop-blur">
@@ -213,7 +224,7 @@ export function CatalogConfigurator({ item }: Props) {
             <div>
               <div className="text-xs text-white/60">TOTAL</div>
               <div className="mt-1 text-xl font-semibold">{formatUsd(calc.totalUsd)}</div>
-              <div className="text-xs text-white/55">{formatBsFromUsd(calc.totalUsd, fx)} (BCV)</div>
+              <div className="text-xs text-white/55">{formatBsFromUsd(calc.totalUsd, fxRate)} (BCV)</div>
             </div>
             <a
               href={whatsappHref(waMsg)}
@@ -225,8 +236,8 @@ export function CatalogConfigurator({ item }: Props) {
             </a>
           </div>
           <div className="mt-3 text-[11px] text-white/45">
-            * USD/Bs ***BCV***{' '}
-            {meta?.updatedAt ? `Última: ${new Date(meta.updatedAt).toLocaleString()}` : ''}
+            * USD/Bs ***BCV*** {fxStatus}
+            {fxUpdatedAt ? ` · Última: ${new Date(fxUpdatedAt).toLocaleString()}` : ''}
           </div>
         </div>
       </div>
