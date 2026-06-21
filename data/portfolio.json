@@ -80,6 +80,620 @@
       "size": "22cm x 28cm",
       "description": "Esa mirada que te reconoce al llegar a casa, ahora inmortalizada en madera. Un homenaje al amigo de cuatro patas que nunca se va del todo.",
       "permalink": ""
+    },
+    {
+      "id": "m009",
+      "title": "Astronauta en la Luna: Sueño en Órbita",
+      "cover": "/images/museo/m009.webp",
+      "tags": [
+        "espacial"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Una escena espacial que transmite calma y asombro. El pirograbado sobre madera destaca la figura suspendida del astronauta y convierte la luna en un refugio poético para imaginar otros mundos.",
+      "permalink": ""
+    },
+    {
+      "id": "m010",
+      "title": "Astronauta del Cosmos: Vigía de Estrellas",
+      "cover": "/images/museo/m010.webp",
+      "tags": [
+        "espacial"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Con la mirada perdida entre galaxias, esta pieza lleva el espíritu explorador al relieve de la madera. El contraste del fuego y las sombras crea una atmósfera íntima y futurista.",
+      "permalink": ""
+    },
+    {
+      "id": "m011",
+      "title": "Costa de Fuego: Atardecer en la Bahía",
+      "cover": "/images/museo/m011.webp",
+      "tags": [
+        "naturaleza"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Palmeras, botes y un cielo encendido se funden en una escena serena. El trabajo en madera resalta la nostalgia del paisaje y lo vuelve ideal para espacios cálidos y contemplativos.",
+      "permalink": ""
+    },
+    {
+      "id": "m012",
+      "title": "Biblioteca Nocturna: Búhos de Sabiduría",
+      "cover": "/images/museo/m012.webp",
+      "tags": [
+        "naturaleza",
+        "animales"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Los búhos apilados sobre libros celebran la lectura y la quietud de la noche. El pirograbado enfatiza texturas y volúmenes, logrando una pieza encantadora con aire de conocimiento y ternura.",
+      "permalink": ""
+    },
+    {
+      "id": "m013",
+      "title": "Guardiana de Acero: Chica Anime en Combate",
+      "cover": "/images/museo/m013.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La energía del personaje anime se siente en cada línea. Sobre madera, el pirograbado resalta su actitud desafiante y convierte la escena en una obra vibrante para fans de la acción.",
+      "permalink": ""
+    },
+    {
+      "id": "m014",
+      "title": "Fuego Vintage: Retrato Pin-Up Tatuado",
+      "cover": "/images/museo/m014.webp",
+      "tags": [
+        "retrato"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Un retrato femenino con fuerza estética y personalidad. El estilo pin-up se potencia con el pirograbado, que abraza tatuajes, gestos y luces para crear una pieza seductora y elegante.",
+      "permalink": ""
+    },
+    {
+      "id": "m015",
+      "title": "Ascenso Solar: Cohete en Despegue",
+      "cover": "/images/museo/m015.webp",
+      "tags": [
+        "espacial"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El impulso del cohete deja una estela poderosa sobre la madera. La composición transmite movimiento y ambición, ideal para quienes disfrutan del universo espacial y las piezas de aire dinámico.",
+      "permalink": ""
+    },
+    {
+      "id": "m016",
+      "title": "Mercenario Rojo: Deadpool en Guardia",
+      "cover": "/images/museo/m016.webp",
+      "tags": [
+        "superhéroes"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Con su actitud irreverente y las katanas al hombro, Deadpool cobra vida en un pirograbado cargado de contraste. Una pieza ideal para coleccionistas de cultura pop y humor ácido.",
+      "permalink": ""
+    },
+    {
+      "id": "m017",
+      "title": "Ironía de Acero: Deadpool al Acecho",
+      "cover": "/images/museo/m017.webp",
+      "tags": [
+        "superhéroes"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La mirada lateral del personaje refuerza su carácter burlón. El trabajo artesanal en madera acentúa la tensión de la escena y convierte esta versión en una obra de presencia contundente.",
+      "permalink": ""
+    },
+    {
+      "id": "m018",
+      "title": "Rumbo a la Órbita: Transbordador en Partida",
+      "cover": "/images/museo/m018.webp",
+      "tags": [
+        "espacial"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El despegue del transbordador captura el instante exacto en que todo cambia. El pirograbado sobre madera traduce ese vértigo en una pieza limpia, intensa y llena de energía tecnológica.",
+      "permalink": ""
+    },
+    {
+      "id": "m019",
+      "title": "Espíritu del Dragón: Shenlong en Llamas",
+      "cover": "/images/museo/m019.webp",
+      "tags": [
+        "fantasía"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La figura del dragón se despliega con potencia mítica sobre la madera. Sombras y líneas profundas refuerzan su carácter legendario, creando una obra pensada para amantes de la fantasía oriental.",
+      "permalink": ""
+    },
+    {
+      "id": "m020",
+      "title": "Orgullo del Día: Escanor en su Máxima Gloria",
+      "cover": "/images/museo/m020.webp",
+      "tags": [
+        "anime",
+        "fantasía"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La presencia de Escanor irradia autoridad y esplendor. El pirograbado acentúa su porte imponente con un juego de luces que convierte la madera en escenario para un héroe inolvidable.",
+      "permalink": ""
+    },
+    {
+      "id": "m021",
+      "title": "Potencia Clásica: Mustang de Frente",
+      "cover": "/images/museo/m021.webp",
+      "tags": [
+        "vehículos"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El frontal del muscle car comunica fuerza, diseño y nostalgia automotriz. Sobre madera, el pirograbado resalta cromados y volumen, dando forma a una pieza perfecta para fanáticos de los motores.",
+      "permalink": ""
+    },
+    {
+      "id": "m022",
+      "title": "Callejero con Alma: Gato Urbano",
+      "cover": "/images/museo/m022.webp",
+      "tags": [
+        "mascotas"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Un gato con morral y actitud desafiante protagoniza esta obra llena de carácter. El pirograbado sobre madera transmite movimiento y personalidad, ideal para quienes aman las escenas con aire callejero.",
+      "permalink": ""
+    },
+    {
+      "id": "m023",
+      "title": "Honor de Garras: Gato Samurái",
+      "cover": "/images/museo/m023.webp",
+      "tags": [
+        "mascotas",
+        "fantasía"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La mezcla de felinidad y disciplina samurái crea una imagen memorable. El trabajo artesanal en madera realza armaduras, mirada y pose, logrando una pieza entre lo tierno y lo legendario.",
+      "permalink": ""
+    },
+    {
+      "id": "m024",
+      "title": "Fusión en Llamas: Gogeta en Poder Máximo",
+      "cover": "/images/museo/m024.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La energía de la fusión Saiyajin se siente en cada trazo. El pirograbado captura el momento previo al estallido y vuelve la madera un soporte perfecto para la acción más intensa.",
+      "permalink": ""
+    },
+    {
+      "id": "m025",
+      "title": "Ira del Torneo: Gohan Super Saiyajin 2",
+      "cover": "/images/museo/m025.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Gohan aparece en su punto más decisivo, con la rabia contenida y la determinación intacta. El pirograbado sobre madera enfatiza su fuerza narrativa y su valor como escena de colección.",
+      "permalink": ""
+    },
+    {
+      "id": "m026",
+      "title": "Poder en Silencio: Goku de Brazos Cruzados",
+      "cover": "/images/museo/m026.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La postura firme de Goku transmite calma antes del combate. Sobre madera, el contraste de sombras y luces transforma este retrato en una pieza sobria, ideal para destacar la esencia del guerrero.",
+      "permalink": ""
+    },
+    {
+      "id": "m027",
+      "title": "Sombra del Guerrero: Goku en Silencio",
+      "cover": "/images/museo/m027.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El rostro serio y parcialmente sombreado refuerza una atmósfera intensa. El pirograbado da profundidad a la expresión y convierte la imagen en una obra de carácter dramático y muy decorativo.",
+      "permalink": ""
+    },
+    {
+      "id": "m028",
+      "title": "Furia Inquebrantable: Goku Herido",
+      "cover": "/images/museo/m028.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La escena concentra dolor, fuerza y resistencia en un mismo instante. El pirograbado sobre madera intensifica la emoción del personaje y ofrece una pieza poderosa para fans de Dragon Ball.",
+      "permalink": ""
+    },
+    {
+      "id": "m029",
+      "title": "Kamehameha Legendario: Energía en Explosión",
+      "cover": "/images/museo/m029.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El famoso ataque se representa con dinamismo y claridad visual. La madera recoge la estela de energía y convierte la escena en una pieza vibrante, perfecta para una pared protagonista.",
+      "permalink": ""
+    },
+    {
+      "id": "m030",
+      "title": "Doble Legado Saiyajin: Goku y Vegeta",
+      "cover": "/images/museo/m030.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Dos figuras icónicas avanzan de espaldas con un fondo de color que refuerza su rivalidad y unión. El pirograbado aporta presencia y vuelve la composición ideal para coleccionistas de anime.",
+      "permalink": ""
+    },
+    {
+      "id": "m031",
+      "title": "Pulso Viral: Guante Potenciador",
+      "cover": "/images/museo/m031.webp",
+      "tags": [
+        "fantasía",
+        "videojuegos"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La pieza mezcla estética tecnológica con un guiño contemporáneo. El pirograbado sobre madera transforma el objeto en un símbolo visual fuerte, pensado para quienes buscan una obra distinta y llamativa.",
+      "permalink": ""
+    },
+    {
+      "id": "m032",
+      "title": "Luz de Fe: José Gregorio Hernández",
+      "cover": "/images/museo/m032.webp",
+      "tags": [
+        "religioso",
+        "homenaje"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El retrato religioso transmite serenidad y devoción. El pirograbado sobre madera resalta el halo de luz y convierte la imagen en un homenaje cálido, pensado para espacios de fe y memoria.",
+      "permalink": ""
+    },
+    {
+      "id": "m033",
+      "title": "Presencia del Doctor Santo: José Gregorio Hernández",
+      "cover": "/images/museo/m033.webp",
+      "tags": [
+        "religioso",
+        "homenaje"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Con sombrero y traje, esta representación combina elegancia y espiritualidad. La madera aporta solemnidad al retrato y refuerza su valor como pieza de homenaje y devoción popular.",
+      "permalink": ""
+    },
+    {
+      "id": "m034",
+      "title": "Legado de Fe: José Gregorio Hernández de Pie",
+      "cover": "/images/museo/m034.webp",
+      "tags": [
+        "religioso",
+        "homenaje"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La figura completa transmite respeto, equilibrio y presencia histórica. El pirograbado sobre madera enfatiza la verticalidad del retrato y lo vuelve una obra ideal para ofrendas y ambientes íntimos.",
+      "permalink": ""
+    },
+    {
+      "id": "m035",
+      "title": "Mirada del Ocaso: Kaneki Ken",
+      "cover": "/images/museo/m035.webp",
+      "tags": [
+        "anime",
+        "fantasía"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La intensidad del personaje se vuelve protagonista en esta composición oscura y elegante. El pirograbado traduce su drama interior en una pieza de fuerte impacto para amantes del anime gótico.",
+      "permalink": ""
+    },
+    {
+      "id": "m036",
+      "title": "Espíritu del Sombrero de Paja: Luffy",
+      "cover": "/images/museo/m036.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Luffy aparece con la energía y el carisma que lo distinguen. El trabajo en madera captura su espíritu aventurero y convierte la pieza en un homenaje vivo al universo de One Piece.",
+      "permalink": ""
+    },
+    {
+      "id": "m037",
+      "title": "Orgullo Majin: Vegeta en Resplandor Oscuro",
+      "cover": "/images/museo/m037.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La marca Majin y la expresión desafiante construyen una presencia poderosa. El pirograbado sobre madera refuerza la tensión del personaje y entrega una obra perfecta para fanáticos de Vegeta.",
+      "permalink": ""
+    },
+    {
+      "id": "m038",
+      "title": "Salto de Aventura: Mario en Escenario Retro",
+      "cover": "/images/museo/m038.webp",
+      "tags": [
+        "videojuegos",
+        "infantil"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Mario salta entre bloques con una estética lúdica que despierta nostalgia. El pirograbado sobre madera convierte la escena en una pieza divertida y reconocible para coleccionistas de videojuegos.",
+      "permalink": ""
+    },
+    {
+      "id": "m039",
+      "title": "Cuatro Miradas de Konoha: Naruto y sus Maestros",
+      "cover": "/images/museo/m039.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Kakashi, Naruto, Jiraiya y Sasuke comparten una composición cargada de identidad. La madera y el fuego resaltan sus expresiones y hacen de esta pieza un tributo potente al universo ninja.",
+      "permalink": ""
+    },
+    {
+      "id": "m040",
+      "title": "Rugido Leonora: Mustang GT500",
+      "cover": "/images/museo/m040.webp",
+      "tags": [
+        "vehículos"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El frente del Mustang GT500 impone carácter y elegancia mecánica. El pirograbado sobre madera enfatiza líneas, luces y fuerza automotriz, logrando una pieza ideal para amantes de los clásicos.",
+      "permalink": ""
+    },
+    {
+      "id": "m041",
+      "title": "Mirada del Bosque: Ojo y Naturaleza",
+      "cover": "/images/museo/m041.webp",
+      "tags": [
+        "naturaleza",
+        "fantasía"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Un ojo se mezcla con árboles y aves en una composición poética. El pirograbado crea una sensación onírica sobre la madera, ideal para quienes conectan arte y contemplación natural.",
+      "permalink": ""
+    },
+    {
+      "id": "m042",
+      "title": "Autobot Eterno: Optimus Prime",
+      "cover": "/images/museo/m042.webp",
+      "tags": [
+        "fantasía",
+        "vehículos"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La figura de Optimus Prime irradia autoridad y nobleza tecnológica. El trabajo artesanal en madera resalta su armadura y lo convierte en una pieza emblemática para fans del cine y la ciencia ficción.",
+      "permalink": ""
+    },
+    {
+      "id": "m043",
+      "title": "Refugio en la Montaña: Noche de Campamento",
+      "cover": "/images/museo/m043.webp",
+      "tags": [
+        "naturaleza"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La carpa turquesa bajo el cielo abierto transmite pausa y libertad. El pirograbado sobre madera recupera la quietud del paisaje y lo vuelve una obra serena para ambientes de descanso.",
+      "permalink": ""
+    },
+    {
+      "id": "m044",
+      "title": "Cría de Fuego: Dragón Bebé",
+      "cover": "/images/museo/m044.webp",
+      "tags": [
+        "fantasía",
+        "animales"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El pequeño dragón combina ternura y fantasía en una sola imagen. La madera permite que cada escama y cada gesto respiren con detalle, dando lugar a una pieza encantadora y única.",
+      "permalink": ""
+    },
+    {
+      "id": "m045",
+      "title": "Agente en Secreto: Perry el Ornitorrinco",
+      "cover": "/images/museo/m045.webp",
+      "tags": [
+        "infantil"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El personaje conserva su encanto travieso y su identidad inconfundible. El pirograbado sobre madera lo transforma en una pieza lúdica, perfecta para coleccionistas de animación con espíritu divertido.",
+      "permalink": ""
+    },
+    {
+      "id": "m046",
+      "title": "Rebeldía en Rebanada: Pizza Steve",
+      "cover": "/images/museo/m046.webp",
+      "tags": [
+        "infantil"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Con humor y personalidad, Pizza Steve protagoniza una pieza fresca y desenfadada. El pirograbado sobre madera captura su estilo irreverente y la convierte en un detalle ideal para espacios juveniles.",
+      "permalink": ""
+    },
+    {
+      "id": "m047",
+      "title": "Perfil del Saiyajin: Goku en Silencio",
+      "cover": "/images/museo/m047.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El perfil de Goku destaca por su serenidad y su fuerza contenida. El pirograbado sobre madera crea un retrato limpio y potente, perfecto para quienes prefieren una presencia más sobria.",
+      "permalink": ""
+    },
+    {
+      "id": "m048",
+      "title": "Chispa Caótica: Majin Vegeta en Primer Plano",
+      "cover": "/images/museo/m048.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Los tonos amarillos y verdes refuerzan la energía inestable del personaje. El pirograbado sobre madera realza su expresión tensa y convierte la pieza en un impacto visual de alto contraste.",
+      "permalink": ""
+    },
+    {
+      "id": "m049",
+      "title": "Orgullo de Vegeta: Rostro del Guerrero",
+      "cover": "/images/museo/m049.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Este primer plano concentra la esencia del príncipe Saiyajin. Sobre madera, el pirograbado define cada línea del rostro y deja una obra directa, elegante y muy apreciada por seguidores del anime.",
+      "permalink": ""
+    },
+    {
+      "id": "m050",
+      "title": "Guardiana del Estanque: Rana de Ojos Grandes",
+      "cover": "/images/museo/m050.webp",
+      "tags": [
+        "animales",
+        "naturaleza"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La rana aparece con una simpatía casi caricaturesca. El pirograbado sobre madera resalta sus ojos y texturas, creando una pieza amable, fresca y con un encanto natural muy especial.",
+      "permalink": ""
+    },
+    {
+      "id": "m051",
+      "title": "Mirada Verde: Retrato de Trenzas",
+      "cover": "/images/museo/m051.webp",
+      "tags": [
+        "retrato"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El retrato femenino destaca por su fondo verde y la fuerza de su expresión. La madera aporta calidez y hace que la escena funcione como una pieza contemporánea y muy personal.",
+      "permalink": ""
+    },
+    {
+      "id": "m052",
+      "title": "Lluvia sobre la Mirada: Retrato con Lentes",
+      "cover": "/images/museo/m052.webp",
+      "tags": [
+        "retrato"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La lluvia suma dramatismo a un rostro lleno de detalle. El pirograbado sobre madera intensifica la atmósfera y convierte la imagen en un retrato elegante, íntimo y profundamente visual.",
+      "permalink": ""
+    },
+    {
+      "id": "m053",
+      "title": "Sonrisa del Caos: Joker en Detalle",
+      "cover": "/images/museo/m053.webp",
+      "tags": [
+        "superhéroes"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La mirada del Joker domina la composición con una intensidad inquietante. El pirograbado sobre madera acentúa sus facciones y vuelve la obra una pieza de presencia fuerte y carácter teatral.",
+      "permalink": ""
+    },
+    {
+      "id": "m054",
+      "title": "Código del Acero: Samurái en Batalla",
+      "cover": "/images/museo/m054.webp",
+      "tags": [
+        "fantasía"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "La postura de combate transmite disciplina y movimiento. El pirograbado sobre madera resalta el contraste de la armadura y convierte la escena en un tributo visual al honor y la tensión.",
+      "permalink": ""
+    },
+    {
+      "id": "m055",
+      "title": "Ojos del Vacío: Satoru Gojo",
+      "cover": "/images/museo/m055.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Gojo aparece con una presencia casi hipnótica. La madera y el fuego enfatizan la claridad de su mirada y hacen de esta pieza una obra ideal para fans del anime actual.",
+      "permalink": ""
+    },
+    {
+      "id": "m056",
+      "title": "Abrazo de Corazón: Snoopy y Woodstock",
+      "cover": "/images/museo/m056.webp",
+      "tags": [
+        "mascotas",
+        "infantil"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "El abrazo entre Snoopy y Woodstock irradia ternura y nostalgia. El pirograbado sobre madera suaviza la escena y la vuelve una pieza perfecta para regalar y conservar con cariño.",
+      "permalink": ""
+    },
+    {
+      "id": "m057",
+      "title": "Trepamuros en Acción: Spider-Man",
+      "cover": "/images/museo/m057.webp",
+      "tags": [
+        "superhéroes"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Spider-Man destaca con una composición dinámica y muy reconocible. El pirograbado sobre madera captura el movimiento del héroe y lo convierte en una pieza enérgica para amantes de los cómics.",
+      "permalink": ""
+    },
+    {
+      "id": "m058",
+      "title": "Aliento de Determinación: Tanjiro Kamado",
+      "cover": "/images/museo/m058.webp",
+      "tags": [
+        "anime"
+      ],
+      "year": 2026,
+      "size": "Medida por confirmar",
+      "description": "Tanjiro se presenta con una mirada firme y una carga emocional poderosa. El trabajo artesanal en madera resalta su carácter y convierte la obra en un homenaje elegante al universo de Kimetsu.",
+      "permalink": ""
     }
   ]
 }
